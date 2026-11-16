@@ -1,5 +1,9 @@
 # Factory safety console
 
+<h1 align="center">🚀 Explore the live preview</h1>
+<p align="center"><a href="https://factory-safety-tracker-153r.onrender.com"><strong>OPEN FACTORY SAFETY TRACKER →</strong></a></p>
+<p align="center">See the operations dashboard in your browser.</p>
+
 **Made By Sreesanth <3**
 
 A React/Vite workplace safety dashboard with local browser cameras, a serial sensor adapter, configurable vision inference, and an incident review queue. Camera clips are recorded from the selected local camera. Alerts remain unverified until a permitted person reviews them; this prototype does not actuate equipment.
