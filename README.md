@@ -32,6 +32,10 @@ See [MODEL_ARTIFACTS.md](MODEL_ARTIFACTS.md) for the preserved model inventory a
 
 The browser must stay open while a camera is recording or analyzing. Live camera access is available on localhost or HTTPS in browsers that support `getUserMedia`. Connected phones appear only when Windows exposes them as webcam devices (for example, through a phone webcam driver/app); a USB connection alone does not make a phone camera available to a web page.
 
+### Render preview deployment
+
+Deploy this repository as a **Web Service**, not a Static Site: the authenticated API is attached to the Vite preview server. Use `npm ci && npm run build` as the build command and `npm run preview -- --host 0.0.0.0 --port $PORT` as the start command. Set `ADMIN_USERNAME` and a strong `ADMIN_PASSWORD` in Render's environment settings. Vite automatically allows Render's `RENDER_EXTERNAL_HOSTNAME`; for a custom domain, add its hostname to the comma-separated `PREVIEW_ALLOWED_HOSTS` environment variable. This exposes the dashboard/API only. Live inference additionally requires a deployed Python vision service and a reachable `VISION_SERVICE_URL`; the default loopback address only works when Node and Python run on the same machine. Treat this as a demo deployment, not a production safety system, and disclose that browser camera frames are sent to your hosted server.
+
 ## Pages
 
 - **Overview** shows live incident totals and animated charts for PPE, fire/smoke, electrical, fight, and accident signals.
