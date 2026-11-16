@@ -1,0 +1,101 @@
+/* Hallmark · shape: app screen · genre: modern-minimal · theme: Vantage · material: soft liquid glass · v2.0.0 */
+:root {
+  color-scheme: dark;
+  --font-body: "Geologica", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: "Geologica", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --display-weight: 400;
+  --tracking-display: -0.035em;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.35rem;
+  --text-2xl: 1.75rem;
+  --text-title: clamp(1.2rem, 2vw, 1.5rem);
+  --text-section: clamp(1.45rem, 3vw, 2rem);
+  --text-display: clamp(2.5rem, 6vw, 4.5rem);
+  --text-lead: clamp(1.1rem, 2vw, 1.3rem);
+
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.375rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --gutter: clamp(1rem, 3vw, 2.5rem);
+  --container: 1440px;
+  --control-height: 44px;
+  --tick: 12px;
+
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --ease-out: cubic-bezier(0.2, 0.75, 0.25, 1);
+
+  --color-paper: #080d0f;
+  --color-paper-2: #10181b;
+  --color-paper-3: #1a2529;
+  --color-ink: #f2f8f5;
+  --color-ink-2: #c2d1cc;
+  --color-muted: #8a9b96;
+  --color-rule: #273438;
+  --color-rule-2: #435258;
+  --color-accent: #b8ef4a;
+  --color-accent-hi: #c9f86f;
+  --color-accent-ink: #17200b;
+  --color-success: #70d395;
+  --color-warning: #f1b94e;
+  --color-error: #ff746c;
+  --color-focus: #d3ff76;
+  --color-chart-fight: #bf9bf0;
+  --color-chart-accident: #79c8df;
+  --color-warning-ink: #231a08;
+  --glass-surface: rgb(20 29 32 / 76%);
+  --glass-surface-strong: rgb(18 27 30 / 88%);
+  --glass-edge: rgb(230 255 245 / 14%);
+  --glass-shadow: 0 14px 38px rgb(0 0 0 / 18%), inset 0 1px 0 rgb(255 255 255 / 7%);
+  --glass-inset-soft: inset 0 1px 0 rgb(255 255 255 / 4%);
+  --glass-hover-shadow: 0 18px 40px rgb(0 0 0 / 13%), inset 0 1px 0 rgb(255 255 255 / 7%);
+  --glass-menu-shadow: 0 8px 18px rgb(0 0 0 / 22%);
+  --ambient-a: rgb(91 144 123 / 10%);
+  --ambient-b: rgb(69 113 150 / 9%);
+
+  --radius-card: 18px;
+  --radius-pill: 999px;
+  --shadow-card: 0 16px 40px rgb(0 0 0 / 16%), inset 0 1px 0 rgb(255 255 255 / 4%);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --color-paper: #f2f6f5;
+  --color-paper-2: #ffffff;
+  --color-paper-3: #e5eeeb;
+  --color-ink: #182321;
+  --color-ink-2: #41534e;
+  --color-muted: #657873;
+  --color-rule: #d8e2df;
+  --color-rule-2: #b3c2bd;
+  --color-accent: #527a12;
+  --color-accent-hi: #42670c;
+  --color-accent-ink: #ffffff;
+  --color-success: #22834e;
+  --color-warning: #956000;
+  --color-error: #b73531;
+  --color-focus: #537b12;
+  --color-chart-fight: #7642a8;
+  --color-chart-accident: #176986;
+  --color-warning-ink: #ffffff;
+  --glass-surface: rgb(255 255 255 / 76%);
+  --glass-surface-strong: rgb(255 255 255 / 90%);
+  --glass-edge: rgb(38 69 58 / 13%);
+  --glass-shadow: 0 14px 36px rgb(32 58 48 / 10%), inset 0 1px 0 rgb(255 255 255 / 90%);
+  --glass-inset-soft: inset 0 1px 0 rgb(255 255 255 / 82%);
+  --glass-hover-shadow: 0 18px 40px rgb(32 58 48 / 13%), inset 0 1px 0 rgb(255 255 255 / 90%);
+  --glass-menu-shadow: 0 8px 18px rgb(32 58 48 / 12%);
+  --ambient-a: rgb(142 190 150 / 14%);
+  --ambient-b: rgb(169 197 169 / 8%);
+  --shadow-card: 0 14px 36px rgb(32 58 48 / 9%), inset 0 1px 0 rgb(255 255 255 / 88%);
+}

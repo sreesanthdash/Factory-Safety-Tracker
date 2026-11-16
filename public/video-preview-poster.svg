@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Video preview placeholder">
+  <rect width="640" height="400" fill="#171f23"/>
+  <path d="M28 42h48M28 42v48M612 42h-48M612 42v48M28 358h48M28 358v-48M612 358h-48M612 358v-48" fill="none" stroke="#59686c" stroke-width="2"/>
+  <path d="M118 164h404M118 236h404" fill="none" stroke="#303b40" stroke-width="2"/>
+  <circle cx="320" cy="200" r="34" fill="#101619" stroke="#59686c" stroke-width="2"/>
+  <path d="m312 185 23 15-23 15z" fill="#e8eeed"/>
+  <circle cx="566" cy="74" r="5" fill="#b5dc55"/>
+</svg>

@@ -1,0 +1,10 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.34,<1
+ultralytics>=8.4.63,<9
+supervision>=0.25,<1
+trackers>=2.7,<3
+opencv-python-headless>=4.10,<5
+numpy>=2.0,<3
+python-dotenv>=1.0,<2
+transformers>=4.56,<5
+huggingface_hub>=0.30,<2

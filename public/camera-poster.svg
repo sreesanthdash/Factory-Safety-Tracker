@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="88" y1="38" x2="1180" y2="710" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17272b"/>
+      <stop offset="1" stop-color="#080d0f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(690 0 0 405 560 310)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b8ef4a" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#b8ef4a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0v64" stroke="#d8eee2" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1280v720H0z"/>
+  <path fill="url(#glow)" d="M0 0h1280v720H0z"/>
+  <path fill="url(#grid)" d="M0 0h1280v720H0z"/>
+  <path stroke="#b8ef4a" stroke-opacity=".52" stroke-width="2" d="M104 126h32m-32 0v32m1072-32h-32m32 0v32M104 594h32m-32 0v-32m1072 32h-32m32 0v-32"/>
+  <circle cx="112" cy="82" r="6" fill="#b8ef4a"/>
+  <text x="132" y="88" fill="#f2f8f5" font-family="Arial,sans-serif" font-size="18" letter-spacing="3">LOCAL CAMERA</text>
+  <text x="112" y="642" fill="#c2d1cc" font-family="Arial,sans-serif" font-size="20" letter-spacing="2">WAITING FOR THE FIRST FRAME</text>
+  <path stroke="#f2f8f5" stroke-opacity=".12" d="M112 665h1056"/>
+</svg>
